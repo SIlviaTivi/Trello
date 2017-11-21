@@ -1,10 +1,11 @@
 *{
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 body{
-  background-color:rgb(238, 206, 214) ;
+ background-color:rgb(237, 203, 217) ;
 }
 /*menu de navegacion a los extremos*/
 .menu{
@@ -15,10 +16,11 @@ body{
     }
     .menu .menu_box {
         background: darksalmon;
-        height: 20%;
+        height: 30%;
         width: 100%;
         display: flex;
         justify-content: space-between;
+
         }
           .menu_box .box_menu-leght {
           /*  display: flex;*/
@@ -28,6 +30,7 @@ body{
           margin:0 5%;
             }
                 .box_menu-leght .boxing_menu-legth{
+
                   background:rgba(148, 164, 167, 0.69);
                   width: 30%;
                   margin: 0.5%;
@@ -48,16 +51,84 @@ body{
             justify-content: center;
             }
                   .box_menu-right .boxing_menu-right{
-                    width: 50%;
-                    margin: 0.5%
+                    width: 20%;
+                    margin: 0.1%
 
                     }
                         .boxing_menu-right .ico{
-                          color: grey;
+                          margin-top: 10%;
+                          color: rgb(83, 84, 89);
                           font-size: 150%;
                           justify-content: center;
                         }
                         .boxing_menu-right img{
+                          margin-top: 5%;
                           border-radius: 20em;
+                          height: 110%;
 
                         }
+
+#img2{
+  position: absolute;
+  height: 80px;
+  width: 50px;
+  z-index: -1;
+}
+
+.container{
+  position: absolute;
+  top: 5%;
+
+}
+
+.LisOff{
+width: 250px;
+height: 30px;
+margin: 10px;
+background-color:rgb(117, 89, 106);
+color: white;
+font-size: 20px;
+text-align: left;
+margin-left: 10px;
+border-radius: 5px;
+}
+
+.addInput{
+  background-color:rgb(117, 89, 106);
+
+}
+
+.tableList{
+  width: 280px;
+  height:100px;
+  background-color: rgb(162, 191, 189);
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+
+}
+.tableInput{
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+  font-weight: 700;
+  outline: 0;
+
+
+}
+
+.offTableInput{
+  width: 250px;
+  height: 40px;
+  background:grey;
+}
+
+
+.btnSave{
+  background-color: rgb(191, 55, 87);
+  color: white;
+  width: 40%;
+  height: 30px;
+  margin: 5px;
+  box-shadow: 1px 1px 1px gray;
+}
